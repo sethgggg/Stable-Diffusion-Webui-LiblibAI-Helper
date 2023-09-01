@@ -1,0 +1,22 @@
+blockquote ul {
+    list-style:disc;
+    margin:4px 40px;
+}
+
+blockquote ol {
+    list-style:decimal;
+    margin:4px 40px;
+}
+
+.block.padded.helper_box {
+    padding: 10px !important;
+}
+
+.block.padded.ch_vpadding {
+    padding: 10px 0 !important;
+}
+#right_block {
+    height: 100vh;
+}
+
+
