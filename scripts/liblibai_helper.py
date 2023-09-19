@@ -113,7 +113,7 @@ def on_ui_tabs():
                         <iframe id="liblibai-iframe" 
                             height="1100vh"
                             width="100%" scrolling="auto"
-                            src="https://www.liblibai.com/"
+                            src="https://www.liblib.ai/"
                         >
                         </iframe>
                     """)

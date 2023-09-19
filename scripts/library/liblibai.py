@@ -13,10 +13,10 @@ from copy import deepcopy
 suffix = ".liblibai"
 
 url_dict = {
-    "page": "https://www.liblibai.com/modelinfo/",
-    "uuid": "https://www.liblibai.com/model/getByUuid/",
-    "hash": "https://www.liblibai.com/model-version/hash/",
-    "log": "https://www.liblibai.com/api/www/log/acceptor/f"
+    "page": "https://www.liblib.ai/modelinfo/",
+    "uuid": "https://www.liblib.ai/model/getByUuid/",
+    "hash": "https://www.liblib.ai/model-version/hash/",
+    "log": "https://www.liblib.ai/api/www/log/acceptor/f"
 }
 
 model_type_dict = {
@@ -39,7 +39,7 @@ def record_local_info(data={}, show=True):
         "sys": "L-Helper",
         "cid": uuid.UUID(int=uuid.getnode()).hex[-12:],
         "page": 11,
-        "pageUrl": "https://www.liblibai.com",
+        "pageUrl": "https://www.liblib.ai",
         "ua": log_headers["User-Agent"],
         "var": data
     }
